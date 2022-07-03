@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/banner-curso",
+      "handler": "banner-curso.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/banner-curso",
+      "handler": "banner-curso.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/banner-curso",
+      "handler": "banner-curso.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
